@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Detecção de Objetos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+  <body background="pokemon_violet.webp">
+  <center>
+    <h1 class="btn btn-info heading">Detecção de Objetos</h1>
+
+    <h3 id="status" class="btn btn-danger"></h3>
+    <br><br>
+    <ol style="padding:0px;">
+      <div class="bob col-xs-12">
+
+          <li class="col-sm-4 col-xs-12">
+              <b style="color: black;">Primeira Imagem</b><img src="ar_condicionado.jpeg" class="img-responsive" id="ar">
+          </li>
+         
+
+      </div>
+      <br>
+
+      <div class="bob col-xs-12">
+
+          <li class="col-sm-4 col-xs-12">
+              <b style="color:black;">Segunda Imagem</b><img src="sofa.jpeg" class="img-responsive" id="sofa">
+          </li>
+         
+      <br>
+
+      <div class="bob col-xs-12">
+
+          <li class="col-sm-4 col-xs-12">
+              <b style="color:black ;">Terceira Imagem</b><img src="cubo.jpeg" class="img-responsive" id="cubo">
+          </li>
+
+      </div>
+              
+      <br>
+
+      
+      <br>
+
+      <div class="bob col-xs-12">
+
+          <li class="col-sm-4 col-xs-12">
+              <b style="color:black ;">Quarta Imagem</b><img src="pet_bolinha.jpeg" class="img-responsive" id="pet">
+          </li>
+
+      </div>
+              
+      <br>
+
+
+      <br>
+
+      <div class="bob col-xs-12">
+
+          <li class="col-sm-4 col-xs-12">
+              <b style="color:black ;">Quinta Imagem</b><img src="nintendo_switch.jpeg" class="img-responsive" id="nintendo">
+          </li>
+
+      </div>
+              
+      <br>
+
+
+      <br>
+
+      <div class="bob col-xs-12">
+
+          <li class="col-sm-4 col-xs-12">
+              <b style="color:black ;">Sexta Imagem</b><img src="tv.jpeg" class="img-responsive" id="tv">
+          </li>
+
+      </div>
+              
+      <br>
+  </ol>
+  </center>
+  </body>
+</html>
